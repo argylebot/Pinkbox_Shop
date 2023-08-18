@@ -10974,6 +10974,17 @@ html {
   width: 100%;
 }
 
+.pinkHov {
+  color: white;
+  font-family: 'Roboto', cursive;
+}
+
+.pinkHov:hover {
+  color: var(--bs-pink);
+  text-decoration: underline;
+}
+
+
 .text-gradient {
   background: -webkit-linear-gradient(#FD9DC8, #EA1898);
   background-clip: text;
