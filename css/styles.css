@@ -11015,6 +11015,24 @@ section {
   color: #2937f0;
 }
 
+.nav-item {
+  font-size: 120%;
+  padding-right: 50px;
+}
+
+.nav-item:hover {
+  color: var(--bs-pink);
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-link {
+    transition: none;
+  }
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: var(--bs-pink);
+}
+
 .pinkboxLogo {
   width: 55%;
   padding: 10px;
