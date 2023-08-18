@@ -112,7 +112,7 @@ hr {
   opacity: 0.25;
 }
 .mainLogo {
-  width: 60%;
+  width: 55%;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -2832,6 +2832,22 @@ textarea.form-control-lg {
   border-color: var(--bs-btn-hover-border-color);
   outline: 0;
   box-shadow: var(--bs-btn-focus-box-shadow);
+}
+
+.m-0 {
+  margin: 0 !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footerGuys {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footerGuys li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
   color: var(--bs-btn-active-color);
@@ -5632,6 +5648,7 @@ textarea.form-control-lg {
   background-color: var(--bs-tooltip-bg);
   border-radius: var(--bs-tooltip-border-radius);
 }
+
 
 .popover {
   --bs-popover-zindex: 1070;
@@ -8836,6 +8853,31 @@ textarea.form-control-lg {
   }
   .d-md-inline-flex {
     display: inline-flex !important;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: var(--bs-pink)
+  }
+  
+  a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .footerGuys {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .footerGuys li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .d-md-none {
     display: none !important;
