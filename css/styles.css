@@ -7523,12 +7523,14 @@ a:hover {
 
 .pinkHov {
   color: white;
+  font-family: 'Roboto', cursive;
 }
 
 .pinkHov:hover {
   color: var(--bs-pink);
   text-decoration: underline;
 }
+
 
 .h5 {
   font-family: 'Roboto', cursive;
@@ -11018,6 +11020,7 @@ section {
 .nav-item {
   font-size: 120%;
   padding-right: 50px;
+  font-family: 'Roboto', cursive;
 }
 
 .nav-item:hover {
